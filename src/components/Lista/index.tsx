@@ -1,5 +1,5 @@
 import React from 'react';
-import Item from './Item'
+import Item from './Item';
 import style from './Lista.module.scss';
 
 function Lista() {
@@ -25,8 +25,6 @@ function Lista() {
                     <Item 
                         key={index}
                         {...item}
-                        // tarefa={item.tarefa}
-                        // tempo={item.tempo}
                     />
                 ))}
             </ul>

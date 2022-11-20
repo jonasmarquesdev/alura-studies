@@ -1,4 +1,4 @@
-import style from '../lista.module.scss';
+import style from '../Lista.module.scss';
 
 export default function item({ tarefa, tempo }: { tarefa: string, tempo: string }) {
     return (
