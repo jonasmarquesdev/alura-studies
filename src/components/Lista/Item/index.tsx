@@ -34,6 +34,12 @@ export default function item({
           aria-label="tarefa completada"
         >
         </span>}
+      {selecionado && 
+        <span 
+          className={style.selecionado}
+          aria-label="tarefa completada"
+        >
+        </span>}
     </li>
   );
 }
